@@ -1,67 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
-  <title id="title">Ghassen Alimi - Industrial Engineering</title>
-  <desc id="desc">Industrial engineering, simulation, process optimization and data analytics</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050b1a"/>
-      <stop offset=".5" stop-color="#0b1f4a"/>
-      <stop offset="1" stop-color="#081430"/>
-    </linearGradient>
-    <radialGradient id="glow"><stop offset="0" stop-color="#1d4ed8" stop-opacity=".58"/><stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/></radialGradient>
-    <linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
-    <filter id="softGlow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <style>
-      text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
-      .k { font-size: 12px; letter-spacing: 6px; fill: #38a1ff; font-weight: 600; }
-      .n { font-size: 48px; font-weight: 800; letter-spacing: 1px; }
-      .s { font-size: 15px; fill: #9fb0cc; letter-spacing: .5px; }
-      .p { font-size: 11px; font-weight: 700; fill: #e2ecff; }
-      .a { font-size: 11px; font-weight: 700; fill: #7fdcff; }
-      .line { fill: none; stroke: #2d8cff; stroke-opacity: .35; stroke-width: 1.2; stroke-dasharray: 6 8; }
-      .border { fill: none; stroke: #38a1ff; stroke-width: 2; opacity: .8; }
-      .dot { fill: #7dd3fc; }
-      .pill { fill: #0b1a3a; stroke: #2d8cff; stroke-opacity: .6; }
-    </style>
-  </defs>
-
-  <rect width="1000" height="320" fill="url(#bg)"/>
-  <circle cx="150" cy="95" r="210" fill="url(#glow)"/>
-  <circle cx="860" cy="245" r="220" fill="url(#glow)"/>
-
-  <path class="line" d="M0 250 H90 L130 215 H260"/>
-  <path class="line" d="M1000 95 H900 L860 60 H740"/>
-  <path class="line" d="M60 0 V70"/>
-  <path class="line" d="M940 320 V240"/>
-
-  <circle class="dot" cx="70" cy="60" r="2.5"/><circle class="dot" cx="180" cy="120" r="3"/>
-  <circle class="dot" cx="880" cy="70" r="2.5"/><circle class="dot" cx="930" cy="200" r="2.2"/>
-  <circle class="dot" cx="110" cy="230" r="2"/><circle class="dot" cx="820" cy="290" r="2.6"/>
-
-  <path class="border" d="M20 44 V20 H44"/><path class="border" d="M956 20 H980 V44"/>
-  <path class="border" d="M20 276 V300 H44"/><path class="border" d="M956 300 H980 V276"/>
-
-  <text x="500" y="62" text-anchor="middle" class="k">INDUSTRIAL ENGINEERING · SIMULATION · DATA ANALYTICS</text>
-  <g filter="url(#softGlow)">
-    <text x="500" y="125" text-anchor="middle" class="n"><tspan fill="#eaf2ff">GHASSEN </tspan><tspan fill="url(#name)">ALIMI</tspan></text>
-  </g>
-  <rect x="440" y="141" width="120" height="2" fill="#38a1ff"/>
-  <text x="500" y="172" text-anchor="middle" class="s">Process Optimization · Production Systems · Decision Support</text>
-
-  <g>
-    <rect x="265" y="194" width="92" height="26" rx="13" class="pill"/><circle cx="278" cy="207" r="2.6" fill="#38bdf8"/><text x="287" y="211" class="p">FlexSim</text>
-    <rect x="367" y="194" width="70" height="26" rx="13" class="pill"/><circle cx="380" cy="207" r="2.6" fill="#38bdf8"/><text x="389" y="211" class="p">SAP</text>
-    <rect x="447" y="194" width="95" height="26" rx="13" class="pill"/><circle cx="460" cy="207" r="2.6" fill="#38bdf8"/><text x="469" y="211" class="p">Power BI</text>
-    <rect x="552" y="194" width="82" height="26" rx="13" class="pill"/><circle cx="565" cy="207" r="2.6" fill="#38bdf8"/><text x="574" y="211" class="p">Python</text>
-    <rect x="644" y="194" width="91" height="26" rx="13" class="pill"/><circle cx="657" cy="207" r="2.6" fill="#38bdf8"/><text x="666" y="211" class="p">Lean</text>
-  </g>
-
-  <g>
-    <rect x="220" y="232" width="145" height="26" rx="13" class="pill"/><circle cx="233" cy="245" r="2.6" fill="#38bdf8"/><text x="242" y="249" class="p">Process Improvement</text>
-    <rect x="375" y="232" width="115" height="26" rx="13" class="pill"/><circle cx="388" cy="245" r="2.6" fill="#38bdf8"/><text x="397" y="249" class="p">Supply Chain</text>
-    <rect x="500" y="232" width="110" height="26" rx="13" class="pill"/><circle cx="513" cy="245" r="2.6" fill="#38bdf8"/><text x="522" y="249" class="p">Optimization</text>
-    <rect x="620" y="232" width="160" height="26" rx="13" class="pill"/><circle cx="633" cy="245" r="2.6" fill="#38bdf8"/><text x="642" y="249" class="p">Data Analytics</text>
-  </g>
-
-  <rect x="330" y="272" width="340" height="26" rx="13" fill="none" stroke="#38bdf8" stroke-opacity=".7"/>
-  <text x="500" y="289" text-anchor="middle" class="a">Seeking a PFE Internship · Tunis, Tunisia</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Ghassen — SAP PP/MM, S/4HANA, Supply Chain" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3YzQ1ZTEyYy04NDYyLTQ4NTctYTZjYi1kZTMwYTk5YzkxMTgAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaJPJBQlboxPZh2epa6fHF2oAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0ZGMzNTA5MC02NjBkLTQzYTgtYmVmNy01ZjZlYzA5MGI3MTdscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoqNn2SHxHmYDJEWRqeeGXfgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg35KsZ6IU4hXRNXM89JDGMzy5aXEKw341tYZA4ybV14OkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaBC3po5xkeNCltxmsMXxZ/oAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCC3lXqKhw0EPEzXNS3mjJDw2ShVC27iRgF45mHvU+HxvGRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjdZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjdjNDVlMTJjLTg0NjItNDg1Ny1hNmNiLWRlMzBhOTljOTExOC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmZjYTkwNzMwLWRiZDMtNGRiMC04NzQ1LWMyYjU0MzEwNjAwMnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDfkqxnohTiFdE1czz0kMYzPLlpcQrDfjW1hkDjJtXXg6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggCjrpIEIDrOootDBPdVfdf6KYlKZIoLYHlg0Qx/4oIUiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggdiwhW5HZdSkAQlN11IMyJM4NKRa6aDzlpuN5Qw83++J0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQAMzFXyhSoZbtjjTPgT7NwMGPLSeDtJCA+nCAAkO/Hatp7GKWFiaxwVDANmB7OdrGXonxt5rGYSKUQ3jQHVWiuA=</c2pa:manifest></metadata>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050b1a"/><stop offset=".5" stop-color="#0b1f4a"/><stop offset="1" stop-color="#081430"/></linearGradient>
+<radialGradient id="g1"><stop offset="0" stop-color="#1d4ed8" stop-opacity=".55"/><stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/></radialGradient>
+<linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+.k{font-size:11px;letter-spacing:6px;fill:#38a1ff;font-weight:600}
+.n{font-size:46px;font-weight:800;letter-spacing:1px}
+.s{font-size:15px;fill:#9fb0cc;letter-spacing:.5px}
+.pt{font-size:11px;font-weight:700;fill:#e2ecff}
+.av{font-size:11px;font-weight:700;fill:#7fdcff}
+.blob{animation:drift 9s ease-in-out infinite alternate}
+.b2{animation-duration:12s;animation-direction:alternate-reverse}
+@keyframes drift{from{transform:translate(-30px,0)}to{transform:translate(30px,14px)}}
+.br{fill:none;stroke:#38a1ff;stroke-width:2;animation:pulse 3s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+.dot{fill:#7dd3fc;animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+.ln{fill:none;stroke:#2d8cff;stroke-opacity:.35;stroke-width:1.2;stroke-dasharray:6 8;animation:flow 6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-140}}
+.bar{transform-origin:500px 0;animation:grow 4s ease-in-out infinite}
+@keyframes grow{0%,100%{transform:scaleX(.3)}50%{transform:scaleX(1)}}
+.pill{animation:rise .8s ease-out both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.shine{animation:sh 5s ease-in-out infinite}
+@keyframes sh{0%,100%{opacity:.75}50%{opacity:1}}
+</style>
+</defs>
+<rect width="1000" height="320" fill="url(#bg)"/>
+<circle class="blob" cx="140" cy="90" r="190" fill="url(#g1)"/>
+<circle class="blob b2" cx="860" cy="260" r="200" fill="url(#g1)"/>
+<path class="ln" d="M0 250 H90 L130 215 H260"/>
+<path class="ln" d="M1000 95 H900 L860 60 H740"/>
+<path class="ln" d="M60 0 V70"/><path class="ln" d="M940 320 V240"/>
+<circle class="dot" cx="70" cy="60" r="2.5"/><circle class="dot" style="animation-delay:.8s" cx="180" cy="120" r="3"/>
+<circle class="dot" style="animation-delay:1.6s" cx="880" cy="70" r="2.5"/><circle class="dot" style="animation-delay:2.2s" cx="930" cy="200" r="2.2"/>
+<circle class="dot" style="animation-delay:1.2s" cx="110" cy="230" r="2"/><circle class="dot" style="animation-delay:.4s" cx="820" cy="290" r="2.6"/>
+<path class="br" d="M20 44 V20 H44"/><path class="br" d="M956 20 H980 V44"/>
+<path class="br" d="M20 276 V300 H44"/><path class="br" style="animation-delay:1s" d="M956 300 H980 V276"/>
+<text x="500" y="62" text-anchor="middle" class="k">SAP · SUPPLY CHAIN · INDUSTRIAL ENGINEERING</text>
+<g filter="url(#glow)" class="shine"><text x="500" y="125" text-anchor="middle" class="n"><tspan fill="#eaf2ff">GHASSEN </tspan><tspan fill="url(#name)">NOM</tspan></text></g>
+<rect class="bar" x="440" y="141" width="120" height="2" fill="#38a1ff"/>
+<text x="500" y="172" text-anchor="middle" class="s">S/4HANA Manufacturing · Production Planning · Continuous Improvement</text>
+<g class="pill" style="animation-delay:0.20s">
+<rect x="303.0" y="192" width="64.4" height="26" rx="13" fill="#0b1a3a" stroke="#2d8cff" stroke-opacity=".55"/>
+<circle cx="316.0" cy="205" r="2.6" fill="#38bdf8"/>
+<text x="325.0" y="209" class="pt">SAP PP</text></g>
+<g class="pill" style="animation-delay:0.32s">
+<rect x="377.4" y="192" width="64.4" height="26" rx="13" fill="#0b1a3a" stroke="#2d8cff" stroke-opacity=".55"/>
+<circle cx="390.4" cy="205" r="2.6" fill="#38bdf8"/>
+<text x="399.4" y="209" class="pt">SAP MM</text></g>
+<g class="pill" style="animation-delay:0.44s">
+<rect x="451.8" y="192" width="70.8" height="26" rx="13" fill="#0b1a3a" stroke="#2d8cff" stroke-opacity=".55"/>
+<circle cx="464.8" cy="205" r="2.6" fill="#38bdf8"/>
+<text x="473.8" y="209" class="pt">S/4HANA</text></g>
+<g class="pill" style="animation-delay:0.56s">
+<rect x="532.6" y="192" width="102.8" height="26" rx="13" fill="#0b1a3a" stroke="#2d8cff" stroke-opacity=".55"/>
+<circle cx="545.6" cy="205" r="2.6" fill="#38bdf8"/>
+<text x="554.6" y="209" class="pt">Supply Chain</text></g>
+<g class="pill" style="animation-delay:0.68s">
+<rect x="645.4" y="192" width="51.6" height="26" rx="13" fill="#0b1a3a" stroke="#2d8cff" stroke-opacity=".55"/>
+<circle cx="658.4" cy="205" r="2.6" fill="#38bdf8"/>
+<text x="667.4" y="209" class="pt">S&amp;OP</text></g>
+<g class="pill" style="animation-delay:0.80s">
+<rect x="226.2" y="224" width="109.2" height="26" rx="13" fill="#0b1a3a" stroke="#2d8cff" stroke-opacity=".55"/>
+<circle cx="239.2" cy="237" r="2.6" fill="#38bdf8"/>
+<text x="248.2" y="241" class="pt">Manufacturing</text></g>
+<g class="pill" style="animation-delay:0.92s">
+<rect x="345.4" y="224" width="147.6" height="26" rx="13" fill="#0b1a3a" stroke="#2d8cff" stroke-opacity=".55"/>
+<circle cx="358.4" cy="237" r="2.6" fill="#38bdf8"/>
+<text x="367.4" y="241" class="pt">Production Planning</text></g>
+<g class="pill" style="animation-delay:1.04s">
+<rect x="503.0" y="224" width="45.2" height="26" rx="13" fill="#0b1a3a" stroke="#2d8cff" stroke-opacity=".55"/>
+<circle cx="516.0" cy="237" r="2.6" fill="#38bdf8"/>
+<text x="525.0" y="241" class="pt">IBP</text></g>
+<g class="pill" style="animation-delay:1.16s">
+<rect x="558.2" y="224" width="51.6" height="26" rx="13" fill="#0b1a3a" stroke="#2d8cff" stroke-opacity=".55"/>
+<circle cx="571.2" cy="237" r="2.6" fill="#38bdf8"/>
+<text x="580.2" y="241" class="pt">Lean</text></g>
+<g class="pill" style="animation-delay:1.28s">
+<rect x="619.8" y="224" width="154.0" height="26" rx="13" fill="#0b1a3a" stroke="#2d8cff" stroke-opacity=".55"/>
+<circle cx="632.8" cy="237" r="2.6" fill="#38bdf8"/>
+<text x="641.8" y="241" class="pt">Process Optimization</text></g>
+<g class="pill" style="animation-delay:1.4s"><rect x="300" y="262" width="400" height="26" rx="13" fill="none" stroke="#38bdf8" stroke-opacity=".7"/>
+<text x="500" y="279" text-anchor="middle" class="av">Recherche un stage PFE · SAP PP/MM · S/4HANA</text></g>
 </svg>
