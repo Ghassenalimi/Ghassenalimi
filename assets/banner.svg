@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+  <title id="title">Ghassen Alimi - Industrial Engineering</title>
+  <desc id="desc">Industrial engineering, simulation, process optimization and data analytics</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050b1a"/>
+      <stop offset=".5" stop-color="#0b1f4a"/>
+      <stop offset="1" stop-color="#081430"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#1d4ed8" stop-opacity=".58"/><stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .k { font-size: 12px; letter-spacing: 6px; fill: #38a1ff; font-weight: 600; }
+      .n { font-size: 48px; font-weight: 800; letter-spacing: 1px; }
+      .s { font-size: 15px; fill: #9fb0cc; letter-spacing: .5px; }
+      .p { font-size: 11px; font-weight: 700; fill: #e2ecff; }
+      .a { font-size: 11px; font-weight: 700; fill: #7fdcff; }
+      .line { fill: none; stroke: #2d8cff; stroke-opacity: .35; stroke-width: 1.2; stroke-dasharray: 6 8; }
+      .border { fill: none; stroke: #38a1ff; stroke-width: 2; opacity: .8; }
+      .dot { fill: #7dd3fc; }
+      .pill { fill: #0b1a3a; stroke: #2d8cff; stroke-opacity: .6; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="320" fill="url(#bg)"/>
+  <circle cx="150" cy="95" r="210" fill="url(#glow)"/>
+  <circle cx="860" cy="245" r="220" fill="url(#glow)"/>
+
+  <path class="line" d="M0 250 H90 L130 215 H260"/>
+  <path class="line" d="M1000 95 H900 L860 60 H740"/>
+  <path class="line" d="M60 0 V70"/>
+  <path class="line" d="M940 320 V240"/>
+
+  <circle class="dot" cx="70" cy="60" r="2.5"/><circle class="dot" cx="180" cy="120" r="3"/>
+  <circle class="dot" cx="880" cy="70" r="2.5"/><circle class="dot" cx="930" cy="200" r="2.2"/>
+  <circle class="dot" cx="110" cy="230" r="2"/><circle class="dot" cx="820" cy="290" r="2.6"/>
+
+  <path class="border" d="M20 44 V20 H44"/><path class="border" d="M956 20 H980 V44"/>
+  <path class="border" d="M20 276 V300 H44"/><path class="border" d="M956 300 H980 V276"/>
+
+  <text x="500" y="62" text-anchor="middle" class="k">INDUSTRIAL ENGINEERING · SIMULATION · DATA ANALYTICS</text>
+  <g filter="url(#softGlow)">
+    <text x="500" y="125" text-anchor="middle" class="n"><tspan fill="#eaf2ff">GHASSEN </tspan><tspan fill="url(#name)">ALIMI</tspan></text>
+  </g>
+  <rect x="440" y="141" width="120" height="2" fill="#38a1ff"/>
+  <text x="500" y="172" text-anchor="middle" class="s">Process Optimization · Production Systems · Decision Support</text>
+
+  <g>
+    <rect x="265" y="194" width="92" height="26" rx="13" class="pill"/><circle cx="278" cy="207" r="2.6" fill="#38bdf8"/><text x="287" y="211" class="p">FlexSim</text>
+    <rect x="367" y="194" width="70" height="26" rx="13" class="pill"/><circle cx="380" cy="207" r="2.6" fill="#38bdf8"/><text x="389" y="211" class="p">SAP</text>
+    <rect x="447" y="194" width="95" height="26" rx="13" class="pill"/><circle cx="460" cy="207" r="2.6" fill="#38bdf8"/><text x="469" y="211" class="p">Power BI</text>
+    <rect x="552" y="194" width="82" height="26" rx="13" class="pill"/><circle cx="565" cy="207" r="2.6" fill="#38bdf8"/><text x="574" y="211" class="p">Python</text>
+    <rect x="644" y="194" width="91" height="26" rx="13" class="pill"/><circle cx="657" cy="207" r="2.6" fill="#38bdf8"/><text x="666" y="211" class="p">Lean</text>
+  </g>
+
+  <g>
+    <rect x="220" y="232" width="145" height="26" rx="13" class="pill"/><circle cx="233" cy="245" r="2.6" fill="#38bdf8"/><text x="242" y="249" class="p">Process Improvement</text>
+    <rect x="375" y="232" width="115" height="26" rx="13" class="pill"/><circle cx="388" cy="245" r="2.6" fill="#38bdf8"/><text x="397" y="249" class="p">Supply Chain</text>
+    <rect x="500" y="232" width="110" height="26" rx="13" class="pill"/><circle cx="513" cy="245" r="2.6" fill="#38bdf8"/><text x="522" y="249" class="p">Optimization</text>
+    <rect x="620" y="232" width="160" height="26" rx="13" class="pill"/><circle cx="633" cy="245" r="2.6" fill="#38bdf8"/><text x="642" y="249" class="p">Data Analytics</text>
+  </g>
+
+  <rect x="330" y="272" width="340" height="26" rx="13" fill="none" stroke="#38bdf8" stroke-opacity=".7"/>
+  <text x="500" y="289" text-anchor="middle" class="a">Seeking a PFE Internship · Tunis, Tunisia</text>
+</svg>
