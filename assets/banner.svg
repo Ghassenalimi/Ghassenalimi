@@ -1,78 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
-  <title id="title">Ghassen Alimi - Industrial Engineering</title>
-  <desc id="desc">Industrial engineering, simulation, process optimization and data analytics</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Ghassen Alimi - Industrial Engineering and Data</title>
+  <desc id="desc">Professional animated banner for an industrial engineering student seeking a PFE internship in Tunisia or internationally.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050b1a"/>
-      <stop offset=".5" stop-color="#0b1f4a"/>
-      <stop offset="1" stop-color="#081430"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset=".48" stop-color="#0a1734"/>
+      <stop offset="1" stop-color="#071126"/>
     </linearGradient>
-    <radialGradient id="glow"><stop offset="0" stop-color="#1d4ed8" stop-opacity=".58"/><stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/></radialGradient>
-    <linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
-    <filter id="softGlow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset=".5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="headline" x1="0" x2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <radialGradient id="blueGlow">
+      <stop offset="0" stop-color="#2563eb" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#93c5fd" stroke-opacity=".06"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
     <style>
       text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
-      .k { font-size: 12px; letter-spacing: 6px; fill: #38a1ff; font-weight: 600; }
-      .n { font-size: 48px; font-weight: 800; letter-spacing: 1px; }
-      .s { font-size: 15px; fill: #9fb0cc; letter-spacing: .5px; }
-      .p { font-size: 11px; font-weight: 700; fill: #e2ecff; }
-      .a { font-size: 11px; font-weight: 700; fill: #7fdcff; }
-      .line { fill: none; stroke: #2d8cff; stroke-opacity: .35; stroke-width: 1.2; stroke-dasharray: 6 8; animation: flow 6s linear infinite; }
-      .border { fill: none; stroke: #38a1ff; stroke-width: 2; opacity: .8; animation: pulse 3s ease-in-out infinite; }
-      .dot { fill: #7dd3fc; animation: twinkle 3s ease-in-out infinite; }
-      .pill { fill: #0b1a3a; stroke: #2d8cff; stroke-opacity: .6; animation: rise .8s ease-out both; }
-      .glow-orb { animation: drift 9s ease-in-out infinite alternate; }
-      .glow-orb.second { animation-duration: 12s; animation-direction: alternate-reverse; }
-      .shine { animation: shine 5s ease-in-out infinite; }
-      .bar { transform-origin: 500px 0; animation: grow 4s ease-in-out infinite; }
-      @keyframes drift { from { transform: translate(-30px, 0); } to { transform: translate(30px, 14px); } }
-      @keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
-      @keyframes twinkle { 0%, 100% { opacity: .15; } 50% { opacity: 1; } }
-      @keyframes flow { to { stroke-dashoffset: -140; } }
-      @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-      @keyframes shine { 0%, 100% { opacity: .75; } 50% { opacity: 1; } }
-      @keyframes grow { 0%, 100% { transform: scaleX(.3); } 50% { transform: scaleX(1); } }
+      .eyebrow { fill: #7dd3fc; font-size: 12px; font-weight: 700; letter-spacing: 5px; }
+      .name { fill: url(#headline); font-size: 52px; font-weight: 800; letter-spacing: 1px; }
+      .role { fill: #b5c7e6; font-size: 16px; letter-spacing: .5px; }
+      .micro { fill: #8ca6cd; font-size: 11px; font-weight: 600; letter-spacing: 1.2px; }
+      .badge-text { fill: #dbeafe; font-size: 11px; font-weight: 700; }
+      .badge { fill: #0c1d3b; fill-opacity: .86; stroke: #60a5fa; stroke-opacity: .42; }
+      .orb { animation: drift 11s ease-in-out infinite alternate; }
+      .orb.violet { animation-duration: 15s; animation-direction: alternate-reverse; }
+      .ring { transform-origin: 1010px 180px; animation: spin 18s linear infinite; }
+      .ring.slow { animation-duration: 27s; animation-direction: reverse; }
+      .signal { stroke-dasharray: 5 12; animation: flow 5s linear infinite; }
+      .spark { animation: twinkle 2.8s ease-in-out infinite; }
+      .spark.two { animation-delay: .8s; }
+      .spark.three { animation-delay: 1.6s; }
+      .reveal { animation: reveal .9s ease-out both; }
+      .reveal.one { animation-delay: .15s; }
+      .reveal.two { animation-delay: .3s; }
+      .reveal.three { animation-delay: .45s; }
+      .underline { transform-origin: 110px 0; animation: grow 3.5s ease-in-out infinite; }
+      @keyframes drift { from { transform: translate(-18px, 5px); } to { transform: translate(24px, -12px); } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes flow { to { stroke-dashoffset: -85; } }
+      @keyframes twinkle { 0%, 100% { opacity: .2; transform: scale(.7); } 50% { opacity: 1; transform: scale(1.3); } }
+      @keyframes reveal { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes grow { 0%, 100% { transform: scaleX(.45); opacity: .55; } 50% { transform: scaleX(1); opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .orb, .ring, .signal, .spark, .reveal, .underline { animation: none; }
+      }
     </style>
   </defs>
 
-  <rect width="1000" height="320" fill="url(#bg)"/>
-  <circle class="glow-orb" cx="150" cy="95" r="210" fill="url(#glow)"/>
-  <circle class="glow-orb second" cx="860" cy="245" r="220" fill="url(#glow)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <circle class="orb" cx="155" cy="60" r="250" fill="url(#blueGlow)"/>
+  <circle class="orb violet" cx="1040" cy="305" r="260" fill="url(#violetGlow)"/>
 
-  <path class="line" d="M0 250 H90 L130 215 H260"/>
-  <path class="line" d="M1000 95 H900 L860 60 H740"/>
-  <path class="line" d="M60 0 V70"/>
-  <path class="line" d="M940 320 V240"/>
+  <path class="signal" d="M0 285H145l48-42h160" fill="none" stroke="#38bdf8" stroke-opacity=".38" stroke-width="1.4"/>
+  <path class="signal" d="M1200 86h-132l-42 38H875" fill="none" stroke="#818cf8" stroke-opacity=".34" stroke-width="1.4"/>
+  <path d="M52 58V30h28M1120 30h28v28M52 302v28h28M1120 330h28v-28" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
 
-  <circle class="dot" cx="70" cy="60" r="2.5"/><circle class="dot" cx="180" cy="120" r="3"/>
-  <circle class="dot" cx="880" cy="70" r="2.5"/><circle class="dot" cx="930" cy="200" r="2.2"/>
-  <circle class="dot" cx="110" cy="230" r="2"/><circle class="dot" cx="820" cy="290" r="2.6"/>
-
-  <path class="border" d="M20 44 V20 H44"/><path class="border" d="M956 20 H980 V44"/>
-  <path class="border" d="M20 276 V300 H44"/><path class="border" d="M956 300 H980 V276"/>
-
-  <text x="500" y="62" text-anchor="middle" class="k">INDUSTRIAL ENGINEERING · OPERATIONS · DATA</text>
-  <g filter="url(#softGlow)" class="shine">
-    <text x="500" y="125" text-anchor="middle" class="n"><tspan fill="#eaf2ff">GHASSEN </tspan><tspan fill="url(#name)">ALIMI</tspan></text>
-  </g>
-  <rect class="bar" x="440" y="141" width="120" height="2" fill="#38a1ff"/>
-  <text x="500" y="172" text-anchor="middle" class="s">Process Optimization · Production Management · Data Analysis</text>
-
-  <g>
-    <rect x="263" y="194" width="126" height="26" rx="13" class="pill"/><circle cx="276" cy="207" r="2.6" fill="#38bdf8"/><text x="285" y="211" class="p">Industrial Eng.</text>
-    <rect x="405" y="194" width="112" height="26" rx="13" class="pill"/><circle cx="418" cy="207" r="2.6" fill="#38bdf8"/><text x="427" y="211" class="p">Lean Six Sigma</text>
-    <rect x="533" y="194" width="60" height="26" rx="13" class="pill"/><circle cx="546" cy="207" r="2.6" fill="#38bdf8"/><text x="555" y="211" class="p">SAP</text>
-    <rect x="609" y="194" width="128" height="26" rx="13" class="pill"/><circle cx="622" cy="207" r="2.6" fill="#38bdf8"/><text x="631" y="211" class="p">Supply Chain</text>
+  <g class="reveal">
+    <text x="86" y="82" class="eyebrow">INDUSTRIAL ENGINEERING STUDENT AT ENSIT</text>
+    <text x="86" y="145" class="name" filter="url(#shadow)">GHASSEN ALIMI</text>
+    <rect class="underline" x="88" y="164" width="220" height="3" rx="2" fill="url(#accent)"/>
+    <text x="88" y="202" class="role">Process Optimization  ·  Supply Chain  ·  Data Analytics</text>
+    <text x="88" y="228" class="micro">TURNING INDUSTRIAL DATA INTO BETTER DECISIONS</text>
   </g>
 
-  <g>
-    <rect x="220" y="232" width="145" height="26" rx="13" class="pill"/><circle cx="233" cy="245" r="2.6" fill="#38bdf8"/><text x="242" y="249" class="p">Process Optimization</text>
-    <rect x="375" y="232" width="104" height="26" rx="13" class="pill"/><circle cx="388" cy="245" r="2.6" fill="#38bdf8"/><text x="397" y="249" class="p">Quality Mgmt</text>
-    <rect x="489" y="232" width="104" height="26" rx="13" class="pill"/><circle cx="502" cy="245" r="2.6" fill="#38bdf8"/><text x="511" y="249" class="p">Data Analysis</text>
-    <rect x="603" y="232" width="72" height="26" rx="13" class="pill"/><circle cx="616" cy="245" r="2.6" fill="#38bdf8"/><text x="625" y="249" class="p">Python</text>
-    <rect x="685" y="232" width="55" height="26" rx="13" class="pill"/><circle cx="698" cy="245" r="2.6" fill="#38bdf8"/><text x="707" y="249" class="p">SQL</text>
+  <g class="reveal one">
+    <rect class="badge" x="88" y="260" width="116" height="30" rx="15"/>
+    <circle cx="104" cy="275" r="3" fill="#38bdf8"/>
+    <text x="115" y="279" class="badge-text">Lean Six Sigma</text>
+    <rect class="badge" x="214" y="260" width="70" height="30" rx="15"/>
+    <circle cx="230" cy="275" r="3" fill="#60a5fa"/>
+    <text x="241" y="279" class="badge-text">SAP</text>
+    <rect class="badge" x="294" y="260" width="104" height="30" rx="15"/>
+    <circle cx="310" cy="275" r="3" fill="#818cf8"/>
+    <text x="321" y="279" class="badge-text">Power BI</text>
+    <rect class="badge" x="408" y="260" width="82" height="30" rx="15"/>
+    <circle cx="424" cy="275" r="3" fill="#a78bfa"/>
+    <text x="435" y="279" class="badge-text">Python</text>
   </g>
 
-  <rect x="330" y="272" width="340" height="26" rx="13" fill="none" stroke="#38bdf8" stroke-opacity=".7"/>
-  <text x="500" y="289" text-anchor="middle" class="a">Seeking a PFE Internship · Tunisia or International</text>
+  <g transform="translate(1010 180)">
+    <circle class="ring" r="112" fill="none" stroke="#60a5fa" stroke-opacity=".18" stroke-width="1" stroke-dasharray="2 14"/>
+    <circle class="ring slow" r="82" fill="none" stroke="#a78bfa" stroke-opacity=".24" stroke-width="1.2" stroke-dasharray="36 16"/>
+    <circle r="48" fill="#0b1d3c" stroke="url(#accent)" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M-25 8h18l10-22 12 38 12-23h18" fill="none" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle class="spark" cx="-73" cy="-65" r="3" fill="#67e8f9"/>
+    <circle class="spark two" cx="91" cy="-20" r="3" fill="#a78bfa"/>
+    <circle class="spark three" cx="48" cy="78" r="3" fill="#60a5fa"/>
+  </g>
+
+  <g class="reveal two">
+    <rect x="760" y="278" width="310" height="34" rx="17" fill="#0b1b38" fill-opacity=".8" stroke="#38bdf8" stroke-opacity=".42"/>
+    <circle cx="782" cy="295" r="4" fill="#34d399"/>
+    <text x="796" y="299" class="badge-text">PFE INTERNSHIP · TUNISIA / INTERNATIONAL</text>
+  </g>
 </svg>
