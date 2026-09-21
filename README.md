@@ -1,5 +1,18 @@
 <div align="center">
 
+<img src="assets/banner.svg" alt="Profile banner" width="100%"/>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/ghassen-alimi"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:ghassen.alimi@ensit.u-tunis.tn"><img src="https://img.shields.io/badge/EMAIL-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+
+<br/><br/>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+</div>
+
 # GHASSEN ALIMI
 
 ### Final-Year Industrial Engineering Student at ENSIT
