@@ -1,98 +1,130 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Profile banner" width="100%"/>
+# GHASSEN ALIMI
 
-<br/>
+### Final-Year Industrial Engineering Student at ENSIT
 
-<a href="https://www.linkedin.com/in/ghassen-alimi"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:ghassen.alimi@ensit.u-tunis.tn"><img src="https://img.shields.io/badge/EMAIL-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+Lean Six Sigma · Production Management · Quality · Logistics · Supply Chain
 
-<br/><br/>
-
-<img src="assets/divider.svg" width="100%" alt=""/>
+<a href="https://www.linkedin.com/in/ghassen-alimi">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+<a href="mailto:a.alimi.ghassen@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
 
 </div>
+
+---
 
 ## `>` whoami
 
-**Ghassen Alimi** - final-year Industrial Engineering student at **ENSIT**, Tunis.
+I am a final-year Industrial Engineering student at the **Higher National Engineering School of Tunis (ENSIT)**.
 
-I am interested in industrial simulation, process optimization and data-driven decision-making. I work with FlexSim, SAP, Power BI and Python, and I am currently seeking a PFE internship.
+My interests include industrial performance, process improvement, production management, quality, logistics and supply chain management. I am currently seeking a **6-month PFE internship**, available from **January 2027**, in Tunisia or internationally.
 
-<div align="center">
+Curious, motivated and analytical, I enjoy transforming operational data into practical insights and decision-support solutions.
 
-|  |  |
-|:--|:--|
-| **Availability** | PFE internship |
+---
+
+## `>` profile
+
+| Information | Details |
+|---|---|
+| **Availability** | 6-month PFE internship |
+| **Available from** | January 2027 |
 | **Based in** | Tunis, Tunisia |
-| **Focus** | Simulation, process optimization and data analytics |
-| **Education** | Industrial Engineering - ENSIT |
+| **Target areas** | Industrial Engineering, Production, Quality, Logistics, Supply Chain |
+| **Languages** | Arabic, French, English |
 
-</div>
+---
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+## `>` experience
 
-## `>` roles I'm targeting
+### Industrial Engineering Intern — Yazaki Tunisia
 
-- Industrial Engineering Intern
-- Process Improvement Intern
-- Production and Operations Intern
-- Supply Chain Intern
-- Data Analytics Intern
+**Production Analytics & Industry 4.0**  
+July 2026 – August 2026 · Gafsa, Tunisia
 
-## `>` current focus
+- Studied the automotive wiring harness manufacturing process.
+- Analysed 604 production shifts from five weekly Excel files.
+- Automated production-data extraction and consolidation.
+- Structured shop-floor information related to absences, downtime, training and shortages.
+- Built a Random Forest model to predict the end-of-shift production ratio.
+- Developed an interactive Streamlit dashboard with KPIs, trends, heatmaps and alerts.
+- Implemented a Monte Carlo bootstrap simulation to evaluate improvement opportunities.
 
-<div align="center">
+### Industrial Engineering Intern — STEG
 
-| Area | Focus |
-|:--|:--|
-| **Simulation** | Modelling and analysing industrial systems with FlexSim |
-| **Optimization** | Improving processes, flow and operational performance |
-| **Data** | Building dashboards and decision-support analyses with Power BI and Python |
-| **Enterprise systems** | Developing practical knowledge of SAP and industrial workflows |
+June 2025 – July 2025 · Gafsa, Tunisia
 
-</div>
+- Analysed the organisation and operations of STEG.
+- Studied electricity and natural gas value chains.
+- Reviewed QHSE, information systems, finance and customer-service functions.
+- Explored energy-transition projects, SCADA systems, smart meters and digitalisation.
+- Prepared a structured report on operations, modernisation projects and strategic challenges.
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+---
 
-## `>` stack
+## `>` skills
 
-<div align="center">
+### Industrial Engineering
 
-**Industrial Engineering**
+![Industrial Engineering](https://img.shields.io/badge/Industrial%20Engineering-0A192F?style=for-the-badge)
+![Lean Six Sigma](https://img.shields.io/badge/Lean%20Six%20Sigma-0A192F?style=for-the-badge)
+![Production Management](https://img.shields.io/badge/Production%20Management-0A192F?style=for-the-badge)
+![Supply Chain](https://img.shields.io/badge/Supply%20Chain-0A192F?style=for-the-badge)
 
-<img src="https://img.shields.io/badge/FlexSim-0A192F?style=flat-square" alt="FlexSim"/>
-<img src="https://img.shields.io/badge/SAP-0A192F?style=flat-square&logo=sap&logoColor=38BDF8" alt="SAP"/>
-<img src="https://img.shields.io/badge/Process%20Optimization-0A192F?style=flat-square" alt="Process Optimization"/>
-<img src="https://img.shields.io/badge/Supply%20Chain-0A192F?style=flat-square" alt="Supply Chain"/>
+### Data and Tools
 
-**Data and Tools**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-<img src="https://img.shields.io/badge/Python-0A192F?style=flat-square&logo=python&logoColor=38BDF8" alt="Python"/>
-<img src="https://img.shields.io/badge/Power%20BI-0A192F?style=flat-square&logo=powerbi&logoColor=F2C811" alt="Power BI"/>
-<img src="https://img.shields.io/badge/Git-0A192F?style=flat-square&logo=git&logoColor=38BDF8" alt="Git"/>
-<img src="https://img.shields.io/badge/VS%20Code-0A192F?style=flat-square&logo=visualstudiocode&logoColor=38BDF8" alt="VS Code"/>
+### Analytics
 
-</div>
+![Random Forest](https://img.shields.io/badge/Random%20Forest-0A192F?style=for-the-badge)
+![Production Analytics](https://img.shields.io/badge/Production%20Analytics-0A192F?style=for-the-badge)
+![Monte Carlo Simulation](https://img.shields.io/badge/Monte%20Carlo%20Simulation-0A192F?style=for-the-badge)
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+---
+
+## `>` certifications
+
+- Data Scientist Associate — Oracle Data Platform 2025 Foundations
+- Data Engineer Associate — Oracle Data Platform 2025 Foundations
+- Data Analyst Associate — Oracle Data Platform 2025 Foundations
+- Certificate of Completion — Power BI
+
+---
 
 ## `>` education
 
-**Industrial Engineering Degree**  
-ENSIT, Tunis
+### Engineering Degree in Industrial Engineering
 
-## `>` contact me about a PFE internship
+**Higher National Engineering School of Tunis (ENSIT)**  
+September 2024 – May 2027
 
-**I am seeking a PFE internship in industrial engineering, process improvement, production, supply chain or data analytics.**
+---
 
-<div align="center">
+## `>` languages
 
-<a href="mailto:ghassen.alimi@ensit.u-tunis.tn"><img src="https://img.shields.io/badge/EMAIL-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://www.linkedin.com/in/ghassen-alimi"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+- Arabic — Native
+- French — Professional working proficiency
+- English — Professional working proficiency
 
-<br/><br/>
+---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:04070F,40:1E3A8A,100:38BDF8&height=120&section=footer" width="100%" alt=""/>
+## `>` contact
 
-</div>
+I am open to opportunities related to industrial engineering, production, quality, logistics, supply chain and data analytics.
+
+<a href="mailto:a.alimi.ghassen@gmail.com">
+<img src="https://img.shields.io/badge/Contact%20me-a.alimi.ghassen%40gmail.com-2563EB?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+<a href="https://www.linkedin.com/in/ghassen-alimi">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
