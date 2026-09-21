@@ -12,7 +12,6 @@
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 </div>
-
 # GHASSEN ALIMI
 
 ### Final-Year Industrial Engineering Student at ENSIT
